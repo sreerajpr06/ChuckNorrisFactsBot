@@ -1,7 +1,7 @@
 import discord
 import os
 import requests
-
+from decouple import config
 
 client = discord.Client()
 
@@ -25,4 +25,5 @@ async def on_message(message):
         data = '\n'.join(data)
         await message.channel.send(data)
 
-client.run(os.getenv("TOKEN"))
+TOKEN = config("TOKEN")
+client.run(TOKEN)
