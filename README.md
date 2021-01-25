@@ -1,5 +1,6 @@
 # ChuckNorrisFactsBot
 A discord bot which gives some fascinating Chuck Norris facts 😉
+It uses this [api] ("https://api.chucknorris.io/") to get the facts.
 
 ## Setting up 
 
