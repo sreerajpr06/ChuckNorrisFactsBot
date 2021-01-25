@@ -1,13 +1,9 @@
 # ChuckNorrisFactsBot
 A discord bot which gives some fascinating Chuck Norris facts 😉
-It uses this [api] ("https://api.chucknorris.io/") to get the facts.
+It uses this [api](https://api.chucknorris.io/) to get the facts.
 
 ## Setting up 
-
-### To Add the Bot to your Server
-Open the link 
-```https://discordapp.com/oauth2/authorize?client_id=802844994565701672&scope=bot&permissions=0```
-Select the server to which the bot is to be added.
+To host the bot
 
 ### In Windows systems
 Installation of virtual environment 
@@ -24,3 +20,9 @@ For running
 
 For deactivating the virtual environment
 ```deactivate```
+
+### To Add the Bot to your Server
+Open the link 
+```https://discordapp.com/oauth2/authorize?client_id=802844994565701672&scope=bot&permissions=0```
+Select the server to which the bot is to be added.
+
